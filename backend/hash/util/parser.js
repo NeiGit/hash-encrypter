@@ -12,14 +12,16 @@ function numberToHex (number) {
 }
 
 function charToNumber (char) {
-  if (typeof char == 'number')
-    return char
+  if (!isNaN(char) && char !== ' ') {
+    return (Math.pow(char, 10) + (Number.parseInt(char))) % 100
+  }
   else
   if (typeof char == 'string') {
     let letterNumber = alphabet.indexOf(char) 
     if (letterNumber < 0) letterNumber = DEFAULT_NUMBER
     return letterNumber
-  } else return DEFAULT_NUMBER
+  } 
+  else return DEFAULT_NUMBER
 }
 
 function numberToLetter(number) {

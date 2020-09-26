@@ -5,9 +5,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node client/simple-input-test.js"
+    "test": "node client/simple-input-test.js",
+    "register": "node client/user/signup.js",
+    "login": "node client/user/login.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.10",
+    "dotenv": "^8.2.0"
+  }
 }
