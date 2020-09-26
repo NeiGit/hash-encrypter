@@ -16,5 +16,4 @@ async function login (name, password) {
   }
 }  
   
-
 login(process.argv[2], process.argv[3]);
