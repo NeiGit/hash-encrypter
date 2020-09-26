@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "hash-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node client/simple-input-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
