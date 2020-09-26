@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 async function start() {
-  const uri = 'mongodb+srv://NeiDB:dni36583721@login-node-4uqxw.mongodb.net/user-registration-hash?retryWrites=true&w=majority'
+  const uri = ''
   console.log(`Connecting to database`)
 
   try {
