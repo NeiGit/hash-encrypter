@@ -42,7 +42,7 @@ function encryptChar (char, magicMultiplier) {
   // ajustamos la longitud del resultado para que tenga 4 caracteres
   // en caso de necesitar agregar caracteres obtenemos una letra y la agregamos
   while (result.length < 4) {
-    result = result + Parser.numberToLetter(lastTwoDigitsOf(magicMultiplier * result.length) % 100)
+    result = result + Parser.numberToLetter(result.length * result.length)
   }
   while (result.length > 4) {
     result = result.slice(0, -1)

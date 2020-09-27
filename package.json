@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node client/simple-input-test.js",
+    "input-test": "node client/simple-input-test.js",
+    "file-test": "node client/file-reader-test.js",
     "register": "node client/user/signup.js",
     "login": "node client/user/login.js"
   },
